@@ -1,18 +1,31 @@
 body {
-  background-color: #F7ECDE;
+  background-color: #B4CFB0;
+  border:50px solid #789395;
+}
+.center{
+  margin-left:auto;
+}
+.image{
+  text-align: center;
+  background-color: #94b49f;
+  padding-left: 20px;
+  border-bottom: solid 10px #E5e3c9;
+  align-items: center;
+}
+.header{
+  text-align: center;
+  color: black;
+  align-items: center;
+  font-size: 150%;
 }
 
-hr {
-  border-style: dotted none none none;
-  border-width: 5px;
-  border-color: black;
-  height: 0px;
-  width: 15%;
-}
 h1{
-  color: #66BFBF;
+  color: black;
   text-shadow: 1px 1px black;
 }
-h3{
-  color: #66BFBF;
+#education{
+  color:black;
+}
+.schooling{
+  margin-left: auto;
 }
