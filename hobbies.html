@@ -4,18 +4,121 @@
 <head>
   <meta charset="utf-8">
   <title>My Hobbies</title>
-    <link rel="stylesheet" href="css\styles.css">
+  <link rel="stylesheet" href="hobbies.css">
 </head>
 
 <body>
-  <h3>My Hobbies</h3>
-  <ol type='i'>
-    <li><a href="https://www.pinterest.com/">Painting</a></li>
-    <li><a href="https://www.facebook.com/carolinawillowphotography/">Photography</a></li>
-    <li><a href="https://store.steampowered.com/">Video Games</a></li>
-    <li><a href="https://stackoverflow.com/">Programming</a></li>
-  </ol>
+  <div class="button_header2">
+    <button class="project_button" type="button" onclick="location.href='home.html'" name="button">Home Page</button>
+    <button class='project_button' type="button" onclick="location.href = 'projects.html'" name="button">Project Page</button>
+    <button class='project_button' type="hobby_botton" onclick="location.href = 'hobbies.html'" name="hobby_button">Hobbies</button>
+    <button class='project_button' type="button" onclick="location.href = 'contact.html'" name="button">Contact Me</button>
+  </div>
 
-  <a href="index.html">Home Screen</a>
+  <h3 class='hobbyheader'>My Hobbies</h3>
+  <p class='hobbydescrip'>I have various different hobbies below, but I also enjoy spending time with my family and dogs.</p>
+<div class="paint_table">
+    <h3 class='hobbysubheader'>Painting</h3>
+    <p class='hobbydescrip'>I enjoy painting in my free time. I would like to learn more about different types of paint media, but currently I only use acrylic.</p>
+      <table class="painting_table">
+        <tr>
+          <td>
+            <img class='paintings' src=".\images\farmland.jpg" alt="Farmland Painting">
+          </td>
+          <td><img class='paintings' src=".\images\flower_raindrop.jpg" alt='Raindrop on Petunia' </td>
+          <td>
+            <img class='paintings' src=".\images\pumpkin_sunflower.jpg" alt="Sunflower and Pumpkins">
+          </td>
+        </tr>
+        <tr>
+          <td><img class='paintings' src=".\images\riverstarynight.jpg" alt="River at Night"></td>
+          <td><img class='paintings' src=".\images\snowytrees.jpg" alt="Snowy Trees"></td>
+          <td><img class='paintings' src=".\images\spookyhalloween.jpg" alt="Spooky Pumpkin Field"></td>
+        </tr>
+        <tr>
+          <td><img class='paintings' src=".\images\sunset_cactus.jpg" alt="River at Night"></td>
+          <td><img class='paintings' src=".\images\sunsetcoast.jpg" alt="Snowy Trees"></td>
+          <td><img class='paintings' src=".\images\turtle_reef.jpg" alt="Turtle Coral Reef"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><img class='paintings' src=".\images\waterfall.jpg" alt='Waterfall in Forest'></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="photos">
+    <h3 class= 'hobbysubheader'>Photography</h3>
+    <p>I have always enjoyed photography and capturing differnt aspects of nature and freezing that moment in time.</p>
+    <table class=myphotos>
+      <tr>
+        <td><img class='photography' src=".\images\1434NC_0042.jpeg" alt="Macro of Sea Weed"></td>
+        <td><img class='photography' src=".\images\1434NC_0068.jpeg" alt="Macro of Seagull Feather"></td>
+        <td><img class='photography' src=".\images\1434NC_0070.jpeg" alt="Barnacles on Drift Wood"></td>
+      </tr>
+      <tr>
+        <td><img class='photography' src=".\images\1434NC_0072.jpeg" alt="Barnacles on Drift Wood"></td>
+        <td><img class='photography' src=".\images\1434NC_0074.jpeg" alt="Barnacles on Drift Wood"></td>
+        <td><img class='photography' src=".\images\1434NC_0087.jpeg" alt="Seagull Looking At Ground"></td>
+      </tr>
+      <tr>
+        <td><img class='photography' src=".\images\1434NC_0091.jpeg" alt="Bird With its Head in the Water"></td>
+        <td><img class='photography' src=".\images\1434NC_0099.jpeg" alt="Small Bird Big Bird"></td>
+        <td><img class='photography' src=".\images\CWP_1072.jpeg" alt="Inside an Orchid"></td>
+      </tr>
+      <tr>
+        <td><img class='photography' src=".\images\CWP_1698.jpeg" alt="Raindrops on Flower"></td>
+        <td><img class='photography' src=".\images\CWP_2485.jpeg" alt="Vine Wrapped around Wire"></td>
+        <td><img class='photography' src=".\images\THP_3757.jpeg" alt="Slow Exposure Waterfall"></td>
+      </tr>
+      <tr>
+        <td><img class='photography' src=".\images\SKP_1711.jpeg" alt="Pink Sunset"></td>
+        <td><img class='photography' src=".\images\THP_2727.jpeg" alt="Farm Heater"></td>
+        <td><img class='photography' src=".\images\THP_3648.jpeg" alt="Cave Spider"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><img class='photography' src=".\images\THP_3655.jpeg" alt="Mile High Bridge during Fog"></td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+<div class="gaming">
+  <h3 class='hobbysubheader'> Video Games</h3>
+<p></p>
+<table class=gamingtable>
+  <thead>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td><strong>Thoughts on Gameplay</strong></td>
+      <td><strong>Image of the Game</strong></td>
+    </tr>
+  </thead>
+  <tr>
+    <td>Elder Scrolls: Skyrim</td>
+    <td>Wonderful open world game! Magnificent story line with enough side quests to keep you entertained for months.</td>
+    <td><img class= 'gameimage' src=".\images\skrim.jpg" ></td>
+  </tr>
+  <tr>
+    <td>Sims 4</td>
+    <td>Wonderful game as I enjoy building and creating new houses and decor. <br>
+      Downside is all the expansions/downloadble content one needs to purchase, <br>
+       making this a very expensive game overall.</td>
+    <td><img class='gameimage' src=".\images\sims4.jpg" /></td>
+  </tr>
+  <tr>
+    <td>Hogwarts Legacy</td>
+    <td>This game is not yet released but I have been waiting <br />
+    for two years. I will update this after I spend Christmas break in front of my pc! 🤣</td>
+    <td><img class='gameimage' src='.\images\hogwarts_legacy.jpg' /></td>
+  </tr>
+</table>
+</div>
+<!--<div class="footer">
+  <button onclick='topFunction()' class= 'project_button' >TO THE TOP <br />Have a safe trip</button>
+</div>-->
+
 </body>
+
 </html>

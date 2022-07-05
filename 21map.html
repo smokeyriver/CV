@@ -2,13 +2,33 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Storms of 2016</title>
-    <link rel="stylesheet" href="css\styles.css">
+    <title>Storms of 2021</title>
+    <link rel="stylesheet" href="map_sub.css">
   </head>
   <body>
-    <h1>2021 Storm Map</h1>
-    <iframe src="Hurricane Project/tile21.html" width="625" height="625"></iframe>
-    <a href="projects.html">Return to Project Homepage</a><br>
-    <a href="index.html">Return to Homepage</a>
+    <div class="button_header2">
+  <button class="project_button" type="button" onclick="location.href='home.html'" name="button">Home Page</button>
+  <button class='project_button' type="button" onclick="location.href = 'projects.html'" name="button">Project Page</button>
+  <button class='project_button' type="hobby_botton" onclick="location.href = 'hobbies.html'" name="hobby_button">Hobbies</button>
+  <button class='project_button' type="button" onclick="location.href = 'contact.html'" name="button">Contact Me</button>
+</div>
+<h1><a id='subheader'>2021 Storm Map</a></h1>
+<div class="sub_map">
+<iframe src="Hurricane Project/tile21.html" width="625" height="625"></iframe>
+</div>
+<div class="map_links">
+  <table class='project_links'>
+    <tr>
+      <td><button class='project_button' type="button" onclick= "location.href = '16map.html'" >2016 Storm Map</button></td>
+      <td><button class='project_button' type="button" onclick= "location.href = '17map.html'" >2017 Storm Map</button></td>
+      <td><button class='project_button' type="button" onclick= "location.href = '18map.html'" >2018 Storm Map</button></td>
+    </tr>
+    <tr>
+      <td><button class='project_button' type="button" onclick= "location.href = '19map.html'" >2019 Storm Map</button></td>
+      <td><button class='project_button' type="button" onclick= "location.href = '20map.html'" >2020 Storm Map</button></td>
+      <td><!--<button class='project_button' type="button" onclick= "location.href = '21map.html'" >2021 Storm Map</button> --></td>
+    </tr>
+  </table>
+</div>
   </body>
 </html>

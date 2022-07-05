@@ -1,0 +1,47 @@
+body {
+  background-color: #cdd7d6;
+  border-top: solid 50px #102542;
+  border-bottom: solid 50px #102542;
+}
+.button_header2{
+  background-color: #102542;
+  text-align:center;
+  border-bottom: #b3a394 solid 5px;
+  padding: 20px;
+}
+.project_button{
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: solid 2px #f87060;
+  padding: 5px;
+  color:black;
+  transition-duration: .04s;
+}
+.project_button:hover{
+  background-color: #FFDEDE;
+}
+#project1{
+  font-family: serif Garamond;
+  text-align:center;
+}
+h6{
+  text-align:center;
+}
+h2{
+  text-align: center;
+}
+.hurri_table{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.map_links{
+  border-bottom: #b3a394 solid 5px;
+}
+.project_links{
+  text-align: center;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
